@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -8,10 +9,62 @@ import { DetailActions } from "@/components/DetailActions";
 import { FuelBadges } from "@/components/FuelBadges";
 import { ProsConsList } from "@/components/ProsConsList";
 import { getAllCars, getCarById } from "@/lib/cars";
-import { cardekhoUrl, efficiencyLabel, formatPriceRange, isEV, ytSearchUrl } from "@/lib/utils";
+import { FUEL_LABELS } from "@/lib/constants";
+import {
+  cardekhoUrl,
+  efficiencyLabel,
+  formatPriceRange,
+  isEV,
+  ytSearchUrl,
+} from "@/lib/utils";
 
 export function generateStaticParams() {
   return getAllCars().map((c) => ({ id: c.id }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const car = getCarById(id);
+  if (!car) {
+    return {
+      title: "Car not found",
+      robots: { index: false, follow: false },
+    };
+  }
+
+  const priceRange = formatPriceRange(car.priceMin, car.priceMax);
+  const fuels = car.fuelTypes.map((f) => FUEL_LABELS[f]).join(", ");
+  const efficiency = efficiencyLabel(car);
+
+  const title = `${car.name} · ${priceRange}`;
+  const description = `${car.name} (${car.type}) specs, pros & cons, and recommendations. ${priceRange} ex-showroom · ${efficiency} · ${car.power} bhp · ${car.safety}★ safety · ${fuels}. Compare, shortlist, and track your decision.`;
+
+  const ogImage = car.image
+    ? [{ url: car.image, width: 630, height: 420, alt: car.name }]
+    : undefined;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/cars/${car.id}` },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url: `/cars/${car.id}`,
+      images: ogImage,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ogImage?.map((i) => i.url),
+    },
+  };
 }
 
 export default async function CarDetailPage({
