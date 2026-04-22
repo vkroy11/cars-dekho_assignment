@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"numeric financial data tabular\" --domain typography -n 3)",
+      "WebFetch(domain:www.cardekho.com)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "stitch"
+  ],
+  "disabledMcpjsonServers": [
+    "shopify-dev"
+  ]
+}

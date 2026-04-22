@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "maruti-swift",
+    "name": "Maruti Suzuki Swift",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 5.79,
+    "priceMax": 8.80,
+    "mileage": 24.8,
+    "power": 80,
+    "safety": 1,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "LXi",
+      "VXi",
+      "ZXi",
+      "ZXi Plus",
+      "ZXi Plus AMT"
+    ],
+    "pros": [
+      "Excellent fuel efficiency",
+      "Cheap and easy to service",
+      "Fun to drive"
+    ],
+    "cons": [
+      "Only 1-star GNCAP rating",
+      "Basic cabin materials"
+    ],
+    "image": "/cars/maruti-swift.jpg"
+  },
+  {
+    "id": "maruti-baleno",
+    "name": "Maruti Suzuki Baleno",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 5.99,
+    "priceMax": 9.10,
+    "mileage": 22.9,
+    "power": 88,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Sigma",
+      "Delta",
+      "Delta AMT",
+      "Zeta",
+      "Alpha"
+    ],
+    "pros": [
+      "Premium cabin feel",
+      "Great mileage, CNG option",
+      "4-star Bharat NCAP"
+    ],
+    "cons": [
+      "Engine not very peppy",
+      "Road noise seeps in"
+    ],
+    "image": "/cars/maruti-baleno.jpg"
+  },
+  {
+    "id": "maruti-wagon-r",
+    "name": "Maruti Suzuki Wagon R",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 4.99,
+    "priceMax": 6.95,
+    "mileage": 25.2,
+    "power": 88,
+    "safety": 1,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "LXi",
+      "VXi",
+      "ZXi",
+      "VXi AMT",
+      "VXi CNG"
+    ],
+    "pros": [
+      "Tall-boy cabin space",
+      "Factory-fit CNG",
+      "Very economical to run"
+    ],
+    "cons": [
+      "1-star GNCAP",
+      "Dated design"
+    ],
+    "image": "/cars/maruti-wagon-r.jpg"
+  },
+  {
+    "id": "maruti-alto-k10",
+    "name": "Maruti Suzuki Alto K10",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 3.70,
+    "priceMax": 5.45,
+    "mileage": 24.9,
+    "power": 66,
+    "safety": 2,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Std",
+      "LXi",
+      "VXi",
+      "VXi Plus",
+      "VXi CNG"
+    ],
+    "pros": [
+      "Lowest running cost in India",
+      "Compact and city-friendly",
+      "CNG variant available"
+    ],
+    "cons": [
+      "Low safety rating",
+      "Very basic features"
+    ],
+    "image": "/cars/maruti-alto-k10.jpg"
+  },
+  {
+    "id": "maruti-celerio",
+    "name": "Maruti Suzuki Celerio",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 5.37,
+    "priceMax": 7.20,
+    "mileage": 26.0,
+    "power": 66,
+    "safety": 1,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "LXi",
+      "VXi",
+      "ZXi",
+      "ZXi Plus",
+      "VXi CNG"
+    ],
+    "pros": [
+      "Best-in-class mileage",
+      "AMT on most variants",
+      "Low cost of ownership"
+    ],
+    "cons": [
+      "1-star GNCAP",
+      "Modest power"
+    ],
+    "image": "/cars/maruti-celerio.jpg"
+  },
+  {
+    "id": "maruti-ignis",
+    "name": "Maruti Suzuki Ignis",
+    "brand": "Maruti Suzuki",
+    "type": "Hatchback",
+    "priceMin": 5.85,
+    "priceMax": 8.20,
+    "mileage": 20.9,
+    "power": 82,
+    "safety": 3,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Sigma",
+      "Delta",
+      "Zeta",
+      "Alpha",
+      "Alpha AMT"
+    ],
+    "pros": [
+      "Quirky SUV-ish styling",
+      "Reliable engine",
+      "Easy parking"
+    ],
+    "cons": [
+      "Older cabin design",
+      "No diesel or CNG"
+    ],
+    "image": "/cars/maruti-ignis.jpg"
+  },
+  {
+    "id": "hyundai-i20",
+    "name": "Hyundai i20",
+    "brand": "Hyundai",
+    "type": "Hatchback",
+    "priceMin": 5.99,
+    "priceMax": 10.44,
+    "mileage": 20.0,
+    "power": 87,
+    "safety": 3,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Era",
+      "Magna",
+      "Sportz",
+      "Asta",
+      "Asta Opt"
+    ],
+    "pros": [
+      "Feature-rich cabin",
+      "Refined petrol engine",
+      "Strong resale"
+    ],
+    "cons": [
+      "Pricier than rivals",
+      "Small boot"
+    ],
+    "image": "/cars/hyundai-i20.jpg"
+  },
+  {
+    "id": "hyundai-grand-i10-nios",
+    "name": "Hyundai Grand i10 Nios",
+    "brand": "Hyundai",
+    "type": "Hatchback",
+    "priceMin": 5.55,
+    "priceMax": 8.03,
+    "mileage": 20.7,
+    "power": 83,
+    "safety": 2,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Era",
+      "Magna",
+      "Sportz",
+      "Asta",
+      "Corporate"
+    ],
+    "pros": [
+      "Plush cabin for the price",
+      "CNG option",
+      "Smooth AMT"
+    ],
+    "cons": [
+      "Average safety",
+      "Small rear seat"
+    ],
+    "image": "/cars/hyundai-grand-i10-nios.jpg"
+  },
+  {
+    "id": "tata-tiago",
+    "name": "Tata Tiago",
+    "brand": "Tata",
+    "type": "Hatchback",
+    "priceMin": 4.60,
+    "priceMax": 7.82,
+    "mileage": 19.0,
+    "power": 85,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "XE",
+      "XM",
+      "XT",
+      "XZ",
+      "XZ Plus"
+    ],
+    "pros": [
+      "4-star GNCAP safety",
+      "Solid build quality",
+      "CNG and AMT options"
+    ],
+    "cons": [
+      "Engine a bit loud",
+      "Older infotainment"
+    ],
+    "image": "/cars/tata-tiago.jpg"
+  },
+  {
+    "id": "tata-altroz",
+    "name": "Tata Altroz",
+    "brand": "Tata",
+    "type": "Hatchback",
+    "priceMin": 6.50,
+    "priceMax": 10.85,
+    "mileage": 19.3,
+    "power": 108,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel",
+      "cng"
+    ],
+    "variants": [
+      "XE",
+      "XM Plus",
+      "XT",
+      "XZ",
+      "XZ Plus"
+    ],
+    "pros": [
+      "5-star GNCAP, safest premium hatch",
+      "Only hatch with diesel + CNG",
+      "Solid build"
+    ],
+    "cons": [
+      "Infotainment a bit laggy",
+      "Turbo variants feel pricey"
+    ],
+    "image": "/cars/tata-altroz.jpg"
+  },
+  {
+    "id": "citroen-c3",
+    "name": "Citroen C3",
+    "brand": "Citroen",
+    "type": "Hatchback",
+    "priceMin": 4.99,
+    "priceMax": 10.21,
+    "mileage": 19.8,
+    "power": 109,
+    "safety": 3,
+    "brandTier": 2,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Live",
+      "Feel",
+      "Feel Vibe",
+      "Shine",
+      "Shine Vibe"
+    ],
+    "pros": [
+      "Tough plastic cabin soaks up abuse",
+      "Peppy turbo variant",
+      "Simple and rugged"
+    ],
+    "cons": [
+      "No diesel or automatic on base",
+      "Limited service network"
+    ],
+    "image": "/cars/citroen-c3.jpg"
+  },
+  {
+    "id": "hyundai-aura",
+    "name": "Hyundai Aura",
+    "brand": "Hyundai",
+    "type": "Sedan",
+    "priceMin": 6.00,
+    "priceMax": 8.54,
+    "mileage": 20.5,
+    "power": 83,
+    "safety": 2,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "E",
+      "S",
+      "SX",
+      "SX Plus",
+      "SX Opt"
+    ],
+    "pros": [
+      "Compact sedan with big-car feel",
+      "CNG option",
+      "Good features"
+    ],
+    "cons": [
+      "Dated styling",
+      "Boot access is fiddly"
+    ],
+    "image": "/cars/hyundai-aura.jpg"
+  },
+  {
+    "id": "maruti-dzire",
+    "name": "Maruti Suzuki Dzire",
+    "brand": "Maruti Suzuki",
+    "type": "Sedan",
+    "priceMin": 6.26,
+    "priceMax": 9.31,
+    "mileage": 25.7,
+    "power": 80,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "LXi",
+      "VXi",
+      "ZXi",
+      "ZXi Plus",
+      "ZXi Plus AGS"
+    ],
+    "pros": [
+      "5-star GNCAP safety",
+      "Class-leading mileage",
+      "Very affordable to run"
+    ],
+    "cons": [
+      "Cramped for tall adults at rear",
+      "No diesel"
+    ],
+    "image": "/cars/maruti-dzire.jpg"
+  },
+  {
+    "id": "tata-tigor",
+    "name": "Tata Tigor",
+    "brand": "Tata",
+    "type": "Sedan",
+    "priceMin": 6.30,
+    "priceMax": 9.55,
+    "mileage": 19.3,
+    "power": 85,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "XE",
+      "XM",
+      "XT",
+      "XZ Plus",
+      "XZ Plus CNG"
+    ],
+    "pros": [
+      "4-star GNCAP",
+      "Stylish for a sub-4m sedan",
+      "CNG option"
+    ],
+    "cons": [
+      "Older infotainment",
+      "Modest power"
+    ],
+    "image": "/cars/tata-tigor.jpg"
+  },
+  {
+    "id": "honda-amaze",
+    "name": "Honda Amaze",
+    "brand": "Honda",
+    "type": "Sedan",
+    "priceMin": 8.10,
+    "priceMax": 11.15,
+    "mileage": 18.7,
+    "power": 89,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "V",
+      "VX",
+      "ZX",
+      "V CVT",
+      "VX CVT"
+    ],
+    "pros": [
+      "Honda refinement",
+      "Great rear-seat space",
+      "CVT option"
+    ],
+    "cons": [
+      "Only petrol",
+      "Premium over Dzire"
+    ],
+    "image": "/cars/honda-amaze.jpg"
+  },
+  {
+    "id": "honda-city",
+    "name": "Honda City",
+    "brand": "Honda",
+    "type": "Sedan",
+    "priceMin": 12.00,
+    "priceMax": 16.07,
+    "mileage": 18.4,
+    "power": 119,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "V",
+      "VX",
+      "ZX",
+      "V CVT",
+      "ZX CVT"
+    ],
+    "pros": [
+      "Benchmark refinement",
+      "Spacious rear bench",
+      "Level-2 ADAS on top trims"
+    ],
+    "cons": [
+      "No diesel or hybrid option here",
+      "Tighter boot than rivals"
+    ],
+    "image": "/cars/honda-city.jpg"
+  },
+  {
+    "id": "hyundai-verna",
+    "name": "Hyundai Verna",
+    "brand": "Hyundai",
+    "type": "Sedan",
+    "priceMin": 10.98,
+    "priceMax": 18.40,
+    "mileage": 19.6,
+    "power": 160,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "EX",
+      "S",
+      "SX",
+      "SX Plus",
+      "SX(O) Turbo"
+    ],
+    "pros": [
+      "Most powerful sedan in class (turbo)",
+      "5-star GNCAP",
+      "Loaded with features"
+    ],
+    "cons": [
+      "Styling is polarising",
+      "No diesel on current gen"
+    ],
+    "image": "/cars/hyundai-verna.jpg"
+  },
+  {
+    "id": "skoda-slavia",
+    "name": "Skoda Slavia",
+    "brand": "Skoda",
+    "type": "Sedan",
+    "priceMin": 11.60,
+    "priceMax": 19.20,
+    "mileage": 19.4,
+    "power": 148,
+    "safety": 5,
+    "brandTier": 3,
+    "maintenanceCost": 4,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Active",
+      "Ambition",
+      "Style",
+      "Style 1.5 TSI",
+      "Monte Carlo"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Strong turbo petrol",
+      "Euro build feel"
+    ],
+    "cons": [
+      "Expensive service",
+      "Firmer ride"
+    ],
+    "image": "/cars/skoda-slavia.jpg"
+  },
+  {
+    "id": "volkswagen-virtus",
+    "name": "Volkswagen Virtus",
+    "brand": "Volkswagen",
+    "type": "Sedan",
+    "priceMin": 11.56,
+    "priceMax": 19.40,
+    "mileage": 19.6,
+    "power": 148,
+    "safety": 5,
+    "brandTier": 3,
+    "maintenanceCost": 4,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Comfortline",
+      "Highline",
+      "Topline",
+      "GT Plus",
+      "GT Plus Sport"
+    ],
+    "pros": [
+      "5-star GNCAP and Latin NCAP",
+      "Rewarding to drive",
+      "German build"
+    ],
+    "cons": [
+      "Premium ownership costs",
+      "Infotainment UI dated"
+    ],
+    "image": "/cars/volkswagen-virtus.jpg"
+  },
+  {
+    "id": "tata-punch",
+    "name": "Tata Punch",
+    "brand": "Tata",
+    "type": "SUV",
+    "priceMin": 5.65,
+    "priceMax": 10.60,
+    "mileage": 18.8,
+    "power": 88,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Pure",
+      "Adventure",
+      "Accomplished",
+      "Creative",
+      "Camo"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Perfect city ride height",
+      "CNG option"
+    ],
+    "cons": [
+      "Modest performance",
+      "No diesel"
+    ],
+    "image": "/cars/tata-punch.jpg"
+  },
+  {
+    "id": "tata-punch-ev",
+    "name": "Tata Punch EV",
+    "brand": "Tata",
+    "type": "SUV",
+    "priceMin": 9.69,
+    "priceMax": 12.59,
+    "mileage": 21.0,
+    "power": 120,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "electric"
+    ],
+    "variants": [
+      "Smart",
+      "Smart Plus",
+      "Adventure",
+      "Empowered",
+      "Empowered Plus LR"
+    ],
+    "pros": [
+      "Affordable EV with 5-star rating",
+      "Long range (421 km)",
+      "Quick DC charging"
+    ],
+    "cons": [
+      "Charging infrastructure patchy",
+      "Plasticky cabin in base"
+    ],
+    "image": "/cars/tata-punch-ev.jpg",
+    "rangeKm": 421
+  },
+  {
+    "id": "tata-nexon",
+    "name": "Tata Nexon",
+    "brand": "Tata",
+    "type": "SUV",
+    "priceMin": 7.37,
+    "priceMax": 14.22,
+    "mileage": 20.5,
+    "power": 118,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel",
+      "cng"
+    ],
+    "variants": [
+      "Smart",
+      "Pure",
+      "Creative",
+      "Fearless",
+      "Fearless Plus"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "All three fuel types",
+      "Feature-rich cabin"
+    ],
+    "cons": [
+      "Fit-and-finish inconsistent",
+      "DCT can be jerky at low speeds"
+    ],
+    "image": "/cars/tata-nexon.jpg"
+  },
+  {
+    "id": "tata-nexon-ev",
+    "name": "Tata Nexon EV",
+    "brand": "Tata",
+    "type": "SUV",
+    "priceMin": 12.49,
+    "priceMax": 17.19,
+    "mileage": 20.0,
+    "power": 143,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "electric"
+    ],
+    "variants": [
+      "Creative",
+      "Fearless",
+      "Fearless Plus LR",
+      "Empowered",
+      "Empowered Plus LR"
+    ],
+    "pros": [
+      "Best-selling Indian EV",
+      "465 km range (LR)",
+      "Fast charging"
+    ],
+    "cons": [
+      "Rear seat a bit tight",
+      "Firmer low-speed ride"
+    ],
+    "image": "/cars/tata-nexon-ev.jpg",
+    "rangeKm": 489
+  },
+  {
+    "id": "tata-harrier",
+    "name": "Tata Harrier",
+    "brand": "Tata",
+    "type": "SUV",
+    "priceMin": 12.89,
+    "priceMax": 25.35,
+    "mileage": 16.8,
+    "power": 170,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "Smart",
+      "Pure",
+      "Adventure",
+      "Fearless",
+      "Fearless Plus Stealth"
+    ],
+    "pros": [
+      "Imposing road presence",
+      "5-star crash rating",
+      "Premium JBL sound"
+    ],
+    "cons": [
+      "Diesel not as refined as rivals",
+      "No AWD option"
+    ],
+    "image": "/cars/tata-harrier.jpg"
+  },
+  {
+    "id": "maruti-fronx",
+    "name": "Maruti Suzuki Fronx",
+    "brand": "Maruti Suzuki",
+    "type": "SUV",
+    "priceMin": 6.85,
+    "priceMax": 11.98,
+    "mileage": 22.9,
+    "power": 99,
+    "safety": 3,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Sigma",
+      "Delta",
+      "Delta Plus",
+      "Zeta",
+      "Alpha Turbo"
+    ],
+    "pros": [
+      "Turbo petrol is sprightly",
+      "Coupe-SUV styling",
+      "Excellent mileage"
+    ],
+    "cons": [
+      "Safety rating mixed",
+      "Smaller boot vs Brezza"
+    ],
+    "image": "/cars/maruti-fronx.jpg"
+  },
+  {
+    "id": "maruti-brezza",
+    "name": "Maruti Suzuki Brezza",
+    "brand": "Maruti Suzuki",
+    "type": "SUV",
+    "priceMin": 8.34,
+    "priceMax": 14.14,
+    "mileage": 19.8,
+    "power": 103,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "LXi",
+      "VXi",
+      "ZXi",
+      "ZXi Plus",
+      "ZXi Plus Dual Tone"
+    ],
+    "pros": [
+      "Roomy cabin",
+      "CNG variant",
+      "Low cost of ownership"
+    ],
+    "cons": [
+      "No diesel",
+      "Engine feels stressed uphill"
+    ],
+    "image": "/cars/maruti-brezza.jpg"
+  },
+  {
+    "id": "maruti-grand-vitara",
+    "name": "Maruti Suzuki Grand Vitara",
+    "brand": "Maruti Suzuki",
+    "type": "SUV",
+    "priceMin": 10.80,
+    "priceMax": 20.10,
+    "mileage": 27.9,
+    "power": 115,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 1,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "Sigma",
+      "Delta",
+      "Zeta",
+      "Alpha Plus",
+      "Alpha Plus Hybrid"
+    ],
+    "pros": [
+      "Best-in-class hybrid mileage",
+      "Comfortable ride",
+      "Premium cabin"
+    ],
+    "cons": [
+      "Smaller boot with hybrid",
+      "Hybrid variant pricey"
+    ],
+    "image": "/cars/maruti-grand-vitara.jpg"
+  },
+  {
+    "id": "hyundai-venue",
+    "name": "Hyundai Venue",
+    "brand": "Hyundai",
+    "type": "SUV",
+    "priceMin": 8.00,
+    "priceMax": 15.82,
+    "mileage": 20.0,
+    "power": 118,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "E",
+      "S",
+      "S(O)",
+      "SX",
+      "SX(O) Turbo DCT"
+    ],
+    "pros": [
+      "5-star Bharat NCAP",
+      "Turbo DCT is slick",
+      "Loaded features"
+    ],
+    "cons": [
+      "Smaller boot vs rivals",
+      "Turbo variants expensive"
+    ],
+    "image": "/cars/hyundai-venue.jpg"
+  },
+  {
+    "id": "hyundai-creta",
+    "name": "Hyundai Creta",
+    "brand": "Hyundai",
+    "type": "SUV",
+    "priceMin": 10.79,
+    "priceMax": 20.20,
+    "mileage": 19.1,
+    "power": 160,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "E",
+      "EX",
+      "S",
+      "SX",
+      "SX(O) Knight"
+    ],
+    "pros": [
+      "Segment best-seller",
+      "Feature-rich, refined cabin",
+      "Turbo and diesel options"
+    ],
+    "cons": [
+      "Pricey at the top",
+      "Suspension firm in city"
+    ],
+    "image": "/cars/hyundai-creta.jpg"
+  },
+  {
+    "id": "kia-sonet",
+    "name": "Kia Sonet",
+    "brand": "Kia",
+    "type": "SUV",
+    "priceMin": 7.30,
+    "priceMax": 14.00,
+    "mileage": 20.5,
+    "power": 118,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "HTE",
+      "HTK",
+      "HTK Plus",
+      "HTX",
+      "GT Line"
+    ],
+    "pros": [
+      "Stylish design",
+      "Diesel automatic available",
+      "Premium cabin feel"
+    ],
+    "cons": [
+      "Tighter rear than Venue",
+      "Ownership cost rising"
+    ],
+    "image": "/cars/kia-sonet.jpg"
+  },
+  {
+    "id": "kia-seltos",
+    "name": "Kia Seltos",
+    "brand": "Kia",
+    "type": "SUV",
+    "priceMin": 10.99,
+    "priceMax": 19.99,
+    "mileage": 17.7,
+    "power": 160,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "HTE",
+      "HTK",
+      "HTX",
+      "HTX Plus",
+      "X-Line"
+    ],
+    "pros": [
+      "5-star Bharat NCAP",
+      "Strong turbo petrol",
+      "Feature loaded"
+    ],
+    "cons": [
+      "Firm ride on poor roads",
+      "Top trims get pricey"
+    ],
+    "image": "/cars/kia-seltos.jpg"
+  },
+  {
+    "id": "skoda-kushaq",
+    "name": "Skoda Kushaq",
+    "brand": "Skoda",
+    "type": "SUV",
+    "priceMin": 10.90,
+    "priceMax": 19.40,
+    "mileage": 17.9,
+    "power": 148,
+    "safety": 5,
+    "brandTier": 3,
+    "maintenanceCost": 4,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Active",
+      "Ambition",
+      "Style",
+      "Monte Carlo",
+      "Onyx"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Engaging drive",
+      "Solid European build"
+    ],
+    "cons": [
+      "Firmer ride",
+      "Costlier service"
+    ],
+    "image": "/cars/skoda-kushaq.jpg"
+  },
+  {
+    "id": "volkswagen-taigun",
+    "name": "Volkswagen Taigun",
+    "brand": "Volkswagen",
+    "type": "SUV",
+    "priceMin": 11.00,
+    "priceMax": 19.30,
+    "mileage": 18.0,
+    "power": 148,
+    "safety": 5,
+    "brandTier": 3,
+    "maintenanceCost": 4,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Comfortline",
+      "Highline",
+      "Topline",
+      "GT",
+      "GT Plus Sport"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Sharp handling",
+      "German feel"
+    ],
+    "cons": [
+      "Expensive parts",
+      "No diesel"
+    ],
+    "image": "/cars/volkswagen-taigun.jpg"
+  },
+  {
+    "id": "mg-astor",
+    "name": "MG Astor",
+    "brand": "MG Motor",
+    "type": "SUV",
+    "priceMin": 10.90,
+    "priceMax": 18.10,
+    "mileage": 14.2,
+    "power": 138,
+    "safety": 5,
+    "brandTier": 3,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol"
+    ],
+    "variants": [
+      "Style",
+      "Super",
+      "Smart",
+      "Sharp",
+      "Savvy"
+    ],
+    "pros": [
+      "Segment-first ADAS",
+      "Attractive styling",
+      "Feature-loaded"
+    ],
+    "cons": [
+      "Lower mileage than rivals",
+      "Smaller service network"
+    ],
+    "image": "/cars/mg-astor.jpg"
+  },
+  {
+    "id": "toyota-hyryder",
+    "name": "Toyota Urban Cruiser Hyryder",
+    "brand": "Toyota",
+    "type": "SUV",
+    "priceMin": 10.99,
+    "priceMax": 19.99,
+    "mileage": 27.9,
+    "power": 116,
+    "safety": 4,
+    "brandTier": 5,
+    "maintenanceCost": 2,
+    "fuelTypes": [
+      "petrol",
+      "cng"
+    ],
+    "variants": [
+      "E",
+      "S",
+      "G",
+      "V",
+      "V Hybrid"
+    ],
+    "pros": [
+      "Strong-hybrid offers 27+ kmpl",
+      "Toyota reliability",
+      "AWD option"
+    ],
+    "cons": [
+      "Pricey at top",
+      "Smaller boot on hybrid"
+    ],
+    "image": "/cars/toyota-hyryder.jpg"
+  },
+  {
+    "id": "mg-windsor-ev",
+    "name": "MG Windsor EV",
+    "brand": "MG Motor",
+    "type": "SUV",
+    "priceMin": 14.00,
+    "priceMax": 18.50,
+    "mileage": 18.0,
+    "power": 134,
+    "safety": 4,
+    "brandTier": 3,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "electric"
+    ],
+    "variants": [
+      "Excite",
+      "Exclusive",
+      "Essence",
+      "Essence Pro",
+      "Essence Pro LR"
+    ],
+    "pros": [
+      "Lounge-like cabin",
+      "Battery-as-a-service plans",
+      "Up to 449 km range"
+    ],
+    "cons": [
+      "Unusual styling",
+      "Rear headroom could be better"
+    ],
+    "image": "/cars/mg-windsor-ev.jpg",
+    "rangeKm": 449
+  },
+  {
+    "id": "mahindra-xuv-3xo",
+    "name": "Mahindra XUV 3XO",
+    "brand": "Mahindra",
+    "type": "SUV",
+    "priceMin": 7.99,
+    "priceMax": 15.50,
+    "mileage": 20.1,
+    "power": 129,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "MX1",
+      "MX3",
+      "AX5",
+      "AX7",
+      "AX7L"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Panoramic sunroof",
+      "Good value"
+    ],
+    "cons": [
+      "Some plastics feel cheap",
+      "Modest rear space"
+    ],
+    "image": "/cars/mahindra-xuv-3xo.jpg"
+  },
+  {
+    "id": "mahindra-thar",
+    "name": "Mahindra Thar",
+    "brand": "Mahindra",
+    "type": "SUV",
+    "priceMin": 9.99,
+    "priceMax": 17.62,
+    "mileage": 15.0,
+    "power": 150,
+    "safety": 4,
+    "brandTier": 4,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "AX Opt",
+      "LX Petrol",
+      "LX Diesel",
+      "LX 4WD",
+      "LX 4WD Diesel AT"
+    ],
+    "pros": [
+      "Genuine off-roader",
+      "Iconic styling",
+      "4-star GNCAP"
+    ],
+    "cons": [
+      "Mileage modest",
+      "3-door limits practicality"
+    ],
+    "image": "/cars/mahindra-thar.jpg"
+  },
+  {
+    "id": "mahindra-scorpio-n",
+    "name": "Mahindra Scorpio-N",
+    "brand": "Mahindra",
+    "type": "SUV",
+    "priceMin": 13.49,
+    "priceMax": 24.95,
+    "mileage": 15.0,
+    "power": 200,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "Z2",
+      "Z4",
+      "Z6",
+      "Z8",
+      "Z8L 4x4 AT"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Strong diesel",
+      "Real 4WD on top trims"
+    ],
+    "cons": [
+      "Dated touch points",
+      "Body roll at speed"
+    ],
+    "image": "/cars/mahindra-scorpio-n.jpg"
+  },
+  {
+    "id": "mahindra-xuv700",
+    "name": "Mahindra XUV700",
+    "brand": "Mahindra",
+    "type": "SUV",
+    "priceMin": 13.66,
+    "priceMax": 26.18,
+    "mileage": 17.0,
+    "power": 197,
+    "safety": 5,
+    "brandTier": 4,
+    "maintenanceCost": 3,
+    "fuelTypes": [
+      "petrol",
+      "diesel"
+    ],
+    "variants": [
+      "MX",
+      "AX3",
+      "AX5",
+      "AX7",
+      "AX7L"
+    ],
+    "pros": [
+      "5-star GNCAP",
+      "Segment-first ADAS",
+      "3-row flexibility"
+    ],
+    "cons": [
+      "Fit-and-finish variable",
+      "Top variants expensive"
+    ],
+    "image": "/cars/mahindra-xuv700.jpg"
+  }
+]
