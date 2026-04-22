@@ -283,30 +283,33 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pt-16 pb-12 sm:pt-24 sm:pb-16">
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border bg-background/70 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
-              <span className="inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500" />
-              Free · No sign-up · 40 curated cars · 2025/26 models
+            <span className="inline-flex items-center gap-2 rounded-full border bg-background/70 px-3 py-1 text-[11px] font-medium text-muted-foreground backdrop-blur sm:text-xs">
+              <span className="inline-flex h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
+              <span className="sm:hidden">Free · 40 cars · 2025/26 India</span>
+              <span className="hidden sm:inline">
+                Free · No sign-up · 40 curated cars · 2025/26 models
+              </span>
             </span>
 
-            <h1 className="mt-6 text-[clamp(2.5rem,6vw,4.5rem)] font-semibold leading-[0.95] tracking-tight">
+            <h1 className="mt-5 text-[clamp(2rem,6vw,4.5rem)] font-semibold leading-[1.02] tracking-tight sm:mt-6 sm:leading-[0.95]">
               Buying a car{" "}
               <span className="text-muted-foreground">shouldn&apos;t feel like</span>{" "}
               <span className="whitespace-nowrap">homework.</span>
             </h1>
 
-            <p className="mt-6 max-w-xl text-balance text-muted-foreground sm:text-lg">
+            <p className="mt-5 max-w-xl text-balance text-base text-muted-foreground sm:mt-6 sm:text-lg">
               Tell us what actually matters — budget, body type, fuel, and how much
               you care about mileage vs safety vs brand. We rank 40 popular Indian
               cars, explain the picks in plain English, and walk you from
               &ldquo;exploring&rdquo; all the way to &ldquo;final decision.&rdquo;
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap sm:items-center">
               <Link
                 href="/preferences"
                 className={cn(
                   buttonVariants({ size: "lg" }),
-                  "cursor-pointer gap-2 px-5 text-base",
+                  "cursor-pointer justify-center gap-2 px-5 text-base",
                 )}
               >
                 Find your car
@@ -316,21 +319,23 @@ export default function HomePage() {
                 href="/recommendations"
                 className={cn(
                   buttonVariants({ size: "lg", variant: "outline" }),
-                  "cursor-pointer px-5 text-base",
+                  "cursor-pointer justify-center px-5 text-base",
                 )}
               >
                 Browse recommendations
               </Link>
             </div>
 
-            <dl className="mt-10 grid max-w-md grid-cols-3 gap-6 border-l pl-6">
+            <dl className="mt-10 grid max-w-md grid-cols-3 gap-4 sm:gap-6 sm:border-l sm:pl-6">
               {[
                 { k: "40", v: "Indian cars" },
                 { k: "3", v: "Clear picks" },
                 { k: "<60s", v: "Questionnaire" },
               ].map((s) => (
                 <div key={s.v}>
-                  <dt className="text-2xl font-semibold tracking-tight">{s.k}</dt>
+                  <dt className="text-xl font-semibold tracking-tight sm:text-2xl">
+                    {s.k}
+                  </dt>
                   <dd className="text-xs text-muted-foreground">{s.v}</dd>
                 </div>
               ))}
@@ -338,17 +343,17 @@ export default function HomePage() {
           </div>
 
           {/* Stacked mock card cluster */}
-          <div className="relative mx-auto w-full max-w-md lg:max-w-none">
+          <div className="relative mx-auto w-full max-w-sm sm:max-w-md lg:max-w-none">
             <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-sky-100 via-transparent to-transparent dark:from-sky-500/10" />
 
             <div className="relative">
               <div className="relative z-20">
                 <MockRecCard />
               </div>
-              <div className="absolute -left-8 top-24 z-10 hidden w-52 rotate-[-4deg] sm:block">
+              <div className="absolute -left-8 top-24 z-10 hidden w-52 rotate-[-4deg] lg:block">
                 <MockQuestionnaire />
               </div>
-              <div className="absolute -right-6 -bottom-10 z-10 hidden w-56 rotate-[3deg] sm:block">
+              <div className="absolute -right-6 -bottom-10 z-10 hidden w-56 rotate-[3deg] lg:block">
                 <MockStages />
               </div>
             </div>
@@ -379,7 +384,7 @@ export default function HomePage() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="mx-auto max-w-6xl px-4 py-20">
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-wide text-primary">
             How it works
@@ -429,7 +434,7 @@ export default function HomePage() {
       </section>
 
       {/* BENTO FEATURE GRID */}
-      <section className="mx-auto max-w-6xl px-4 pb-20">
+      <section className="mx-auto max-w-6xl px-4 pb-14 sm:pb-20">
         <div className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-wide text-primary">
             Built around how buyers actually think
@@ -548,8 +553,8 @@ export default function HomePage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="mx-auto max-w-6xl px-4 py-24">
-        <div className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-primary to-primary/70 p-10 text-primary-foreground shadow-xl sm:p-14">
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
+        <div className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-primary to-primary/70 p-8 text-primary-foreground shadow-xl sm:p-14">
           <div
             aria-hidden
             className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/10 blur-3xl"
@@ -566,17 +571,17 @@ export default function HomePage() {
               Three clear choices, picked for how <em>you</em> drive, live, and spend.
               One minute to start.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Link
                 href="/preferences"
-                className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-background px-5 py-3 text-base font-medium text-foreground shadow-sm transition hover:shadow-md"
+                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-background px-5 py-3 text-base font-medium text-foreground shadow-sm transition hover:shadow-md"
               >
                 Find your car
                 <IconArrowRight className="h-4 w-4" />
               </Link>
               <Link
                 href="/recommendations"
-                className="inline-flex cursor-pointer items-center rounded-lg border border-primary-foreground/30 px-5 py-3 text-base font-medium text-primary-foreground transition hover:bg-primary-foreground/10"
+                className="inline-flex cursor-pointer items-center justify-center rounded-lg border border-primary-foreground/30 px-5 py-3 text-base font-medium text-primary-foreground transition hover:bg-primary-foreground/10"
               >
                 Browse recommendations
               </Link>

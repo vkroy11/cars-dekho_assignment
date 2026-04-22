@@ -112,7 +112,7 @@ export default async function CarDetailPage({
 
         <div>
           <div className="text-sm text-muted-foreground">{car.brand}</div>
-          <h1 className="mt-1 text-3xl font-semibold tracking-tight">
+          <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
             {car.name}
           </h1>
           <div className="mt-1 text-lg">
@@ -128,22 +128,28 @@ export default async function CarDetailPage({
             <DetailActions carId={car.id} carName={car.name} />
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
             <a
               href={ytSearchUrl(car.name)}
               target="_blank"
               rel="noopener noreferrer"
-              className={buttonVariants({ variant: "outline", className: "gap-2" })}
+              className={buttonVariants({
+                variant: "outline",
+                className: "w-full justify-center gap-2 sm:w-auto",
+              })}
             >
-             
-              Watch reviews on YouTube <YouTubeLogo className="h-5 w-5" />
+              Watch reviews on YouTube
+              <YouTubeLogo className="h-5 w-5" />
             </a>
             <a
               href={cardekhoUrl(car.id)}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`Detailed specs for ${car.name} on CarDekho`}
-              className={buttonVariants({ variant: "outline", className: "gap-2" })}
+              className={buttonVariants({
+                variant: "outline",
+                className: "w-full justify-center gap-2 sm:w-auto",
+              })}
             >
               <span className="text-sm text-muted-foreground">Detailed specs on</span>
               <CarDekhoLogo className="h-4 w-auto" />

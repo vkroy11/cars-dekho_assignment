@@ -219,8 +219,8 @@ export function PreferenceForm() {
         </div>
       </section>
 
-      <div className="flex justify-end">
-        <Button type="submit" size="lg">
+      <div className="flex justify-stretch sm:justify-end">
+        <Button type="submit" size="lg" className="w-full sm:w-auto">
           See my top matches
         </Button>
       </div>
